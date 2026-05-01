@@ -10,12 +10,12 @@ import {
   saveSettingsDebounced,
   getRequestHeaders,
   generateQuietPrompt,
-} from "../../../script.js";
+} from "../../../../script.js";
 import {
   extension_settings,
   getContext,
   setExtensionPrompt,
-} from "../../../extensions.js";
+} from "../../../../script.js";
 
 const EXT = "co-reader";
 const RMODE_ID = "co-reader-reading-ctx";
